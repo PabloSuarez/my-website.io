@@ -3,26 +3,16 @@ import React, { Component } from 'react';
 import './styles/NavBar.css';
 
 import ProfileImage from './ProfileImage';
+import profileImageUrl from '../images/profile.png';
 
 class NavBar extends Component {
 
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      data: {
-        profileImageUrl: 'url(https://s.gravatar.com/avatar/b4018edd87d045eacc4056bbde4e075e?s=80)'
-      }
-    }
-  }
-
   render() {
-    const data = this.state.data;
 
     return (
       <aside className="NavBar">
         <div className="NavBar__profile-image">
-            <ProfileImage imageUrl={data.profileImageUrl}/>
+            <ProfileImage imageUrl={profileImageUrl}/>
         </div>
 
         <div className="NavBar__profile-data">

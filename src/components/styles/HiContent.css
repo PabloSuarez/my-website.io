@@ -1,5 +1,10 @@
 .HiContent {
   background-color: #fff;
+  background-image: url('../../images/wall.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
   padding: 40px 20px;
   border: solid 1px #fff;
   min-height: 100vh;
@@ -17,6 +22,7 @@
 }
 
 .HiContent__text-subtitle {
+  color: #fff;
   font-family: quicksand, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
