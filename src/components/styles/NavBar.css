@@ -1,0 +1,54 @@
+.NavBar {
+  align-items: center;
+  background-color: #f2f3f7;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  min-height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* profile image */
+.NavBar__profile-image {
+  height: 150px;
+  width: 150px;
+}
+
+
+/* profile data */
+.NavBar__profile-data-name {
+  font-family: playfair display, Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.NavBar__profile-data-position {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.NavBar__profile-image,
+.NavBar__profile-data {
+  margin-bottom: 30px;
+}
+
+
+/* menu */
+.NavBar__menu {
+
+}
+
+.NavBar__menu-item {
+  border-bottom: solid 1px transparent;
+  cursor: pointer;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  transition: all 500ms;
+}
+
+.NavBar__menu-item:hover {
+  color: rgb(26, 158, 214);
+  border-color: rgb(26, 158, 214);
+}

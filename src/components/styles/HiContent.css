@@ -1,0 +1,32 @@
+.HiContent {
+  background-color: #fff;
+  padding: 40px 20px;
+  border: solid 1px #fff;
+  min-height: 100vh;
+}
+
+.HiContent .HiContent__text {
+  padding: 100px;
+}
+
+.HiContent__text-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.HiContent__text-subtitle {
+  font-family: quicksand, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+.HiContent__text-extra {
+  font-family: quicksand, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+}

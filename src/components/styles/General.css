@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: quicksand,Arial,sans-serif;
+}
+
+body b,
+body strong {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: playfair display, Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.black-link {
+  color: #000;
+}
+
+.container__wrap {
+	display: flex;
+	flex-direction: row;
+  background-color: rgb(129, 126, 128);
+	min-height: 100vh;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container__wrap-left {
+	width: 300px;
+}
+
+.container__wrap-right {
+	width: calc(100% - 300px);
+}
+
+.section__title {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
