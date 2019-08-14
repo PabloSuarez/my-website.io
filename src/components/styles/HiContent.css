@@ -31,6 +31,7 @@
 }
 
 .HiContent__text-extra {
+  background-color: rgba(170, 167, 164, .4);
   font-family: quicksand, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;

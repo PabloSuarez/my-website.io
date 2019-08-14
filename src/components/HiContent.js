@@ -14,10 +14,10 @@ class HiContent extends Component {
             </div>
 
             <h2 className="HiContent__text-subtitle">
-              html5 react websites made
+              react website
             </h2>
 
-            <span className="HiContent__text-extra">*Experience in javascript, react, node, django, jquery, API rest...</span>
+            <span className="HiContent__text-extra">*Experience in react, node, django, angular, c#, java, api rest ...</span>
         </div>
       </div>
     );
