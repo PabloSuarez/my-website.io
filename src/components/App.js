@@ -14,9 +14,9 @@ function App() {
             <NavBar/>
         </div>
         <div className="container__wrap-right">
-            <Experience/>
-            <WhoAmI/>
             <HiContent/>
+            <WhoAmI/>
+            <Experience/>
         </div>
     </div>
   );
