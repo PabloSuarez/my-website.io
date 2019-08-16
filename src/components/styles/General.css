@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .black-link {
-  color: #000;
   text-decoration: none;
 }
 
@@ -35,13 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-direction: row;
   background-color: rgb(129, 126, 128);
-	min-height: 100vh;
 	max-width: 1170px;
 	margin: 0 auto;
 }
 
+.container__wrap-left,
+.container__wrap-right {
+  min-height: 500px;
+  height: 100vh;
+  overflow: auto;
+}
+
 .container__wrap-left {
-  position: relative;
 	width: 300px;
 }
 
@@ -56,4 +60,14 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
+}
+
+.section__name {
+  color: #999;
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }

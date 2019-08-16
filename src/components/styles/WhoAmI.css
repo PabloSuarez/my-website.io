@@ -1,7 +1,7 @@
 .WhoAmI {
   background-color: rgb(222, 222, 222);
   min-height: 100vh;
-  padding: 120px 40px 50px;
+  padding: 50px 40px;
 }
 
 .WhoAmI__about-image {

@@ -16,7 +16,7 @@ class ExperienceCard extends React.Component {
           </h2>
           <p className="Experience__card-content-description">
             <strong>
-              <a href={this.props.data.company.url} className="black-link" target="_blank">
+              <a href={this.props.data.company.url} className="black-link" target="_blank" rel="noopener noreferrer">
                 {this.props.data.company.name}
               </a>
             </strong>
@@ -156,6 +156,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="Experience" id="Experience">
+          <span className="section__name">Experience</span>
           <h2 className="section__title">WORK EXPERIENCE</h2>
 
           <div className="Experience__container">
