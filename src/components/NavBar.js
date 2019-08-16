@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './styles/NavBar.css';
 
 import ProfileImage from './ProfileImage';
-import profileImageUrl from '../images/profile.jpf';
+import profileImageUrl from '../images/profile-min.jpg';
 
 class NavBar extends Component {
 
