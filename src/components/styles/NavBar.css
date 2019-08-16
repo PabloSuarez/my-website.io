@@ -48,8 +48,18 @@
   transition: all 500ms;
 }
 
-.NavBar__menu-item * {
+.NavBar__menu-item-link {
+  color: rgba(0, 0, 0, .7);
+  transition: all 500ms;
+}
+
+.NavBar__menu-item-link,
+.NavBar__menu-item-link:hover {
   text-decoration: none;
+}
+
+.NavBar__menu-item-link:hover {
+  color: #007bff;
 }
 
 .NavBar__menu-item:hover {
