@@ -41,7 +41,7 @@ class Experience extends Component {
           dates: '2017-2019',
           company: {
             name: 'Influenster',
-            url: 'https://www.Influenster.com'
+            url: 'https://Influenster.com'
           },
           contentHtml: () => {
             return (
@@ -60,7 +60,7 @@ class Experience extends Component {
           dates: '2015-2017',
           company: {
             name: 'Sophilabs',
-            url: 'https://www.Sophilabs.com'
+            url: 'https://Sophilabs.com'
           },
           contentHtml: () => {
             return (
@@ -79,7 +79,7 @@ class Experience extends Component {
           dates: '2014-2015',
           company: {
             name: 'Manentia software / Technisys',
-            url: 'https://www.Technisys.com'
+            url: 'https://Technisys.com'
           },
           contentHtml: () => {
             return (
@@ -97,7 +97,7 @@ class Experience extends Component {
           dates: '2013-2015',
           company: {
             name: 'Trovit',
-            url: 'https://www.Trovit.com'
+            url: 'https://Trovit.com'
           },
           contentHtml: () => {
             return (
@@ -118,7 +118,7 @@ class Experience extends Component {
           dates: '2013-2014',
           company: {
             name: 'Cziber',
-            url: 'https://www.cziber.com.uy'
+            url: 'https://cziber.com.uy'
           },
           contentHtml: () => {
             return (
