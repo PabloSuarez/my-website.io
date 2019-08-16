@@ -1,6 +1,22 @@
 .WhoAmI {
   background-color: rgb(222, 222, 222);
   min-height: 100vh;
-  padding: 40px;
-  padding-top: 120px;
+  padding: 120px 40px 50px;
+}
+
+.WhoAmI__about-image {
+  background-image: url('../../images/skyline-bw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  display: block;
+  height: 500px;
+  margin: 40px auto 0;
+  width: 80%;
+}
+
+.WhoAmI__about-image img {
+  height: 0;
+  width: 0;
 }

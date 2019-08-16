@@ -1,12 +1,11 @@
 .HiContent {
   background-color: #fff;
-  background-image: url('../../images/wall.png');
+  background-image: url('../../images/wall-bw.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   padding: 40px 20px;
-  border: solid 1px #fff;
   min-height: 100vh;
 }
 
@@ -22,18 +21,10 @@
 }
 
 .HiContent__text-subtitle {
-  color: #fff;
+  color: rgb(80, 80, 80);
   font-family: quicksand, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 80px;
-}
-
-.HiContent__text-extra {
-  background-color: rgba(170, 167, 164, .4);
-  font-family: quicksand, Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  margin-left: 10px;
 }

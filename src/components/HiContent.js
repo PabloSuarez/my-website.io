@@ -6,7 +6,7 @@ class HiContent extends Component {
 
   render() {
     return (
-      <div className="HiContent">
+      <div className="HiContent" id="HiContent">
         <div className="HiContent__text">
             <div className="HiContent__text-title">
               I am <br/>
@@ -16,8 +16,6 @@ class HiContent extends Component {
             <h2 className="HiContent__text-subtitle">
               react website
             </h2>
-
-            <span className="HiContent__text-extra">*Experience in react, node, django, angular, c#, java, api rest ...</span>
         </div>
       </div>
     );

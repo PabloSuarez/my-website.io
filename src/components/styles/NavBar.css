@@ -48,6 +48,10 @@
   transition: all 500ms;
 }
 
+.NavBar__menu-item * {
+  text-decoration: none;
+}
+
 .NavBar__menu-item:hover {
   color: rgb(26, 158, 214);
   border-color: rgb(26, 158, 214);

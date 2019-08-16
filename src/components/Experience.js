@@ -16,11 +16,11 @@ class ExperienceCard extends React.Component {
           </h2>
           <p className="Experience__card-content-description">
             <strong>
-              <a href="{this.props.data.company.url}" className="black-link">
-                {this.props.data.company.name} &nbsp;
+              <a href={this.props.data.company.url} className="black-link" target="_blank">
+                {this.props.data.company.name}
               </a>
             </strong>
-            {this.props.children}
+            &nbsp;{this.props.children}
           </p>
         </div>
       </article>
@@ -102,7 +102,7 @@ class Experience extends Component {
           contentHtml: () => {
             return (
               <React.Fragment>
-                Trovit is a vertical search engine for classifieds. On March 2012,
+                <span role='img' aria-label='esp'>🇪🇸</span> is a vertical search engine for classifieds. On March 2012,
                 it became the leading search engine for classified ads in Europe and Latin America.
                 On 2016, Trovit reached 51 countries worldwide, being available in 19 languages and
                 receiving more than 90 million unique visitors every month. Wikipedia
@@ -155,7 +155,7 @@ class Experience extends Component {
 
   render() {
     return (
-      <div className="Experience">
+      <div className="Experience" id="Experience">
           <h2 className="section__title">WORK EXPERIENCE</h2>
 
           <div className="Experience__container">
