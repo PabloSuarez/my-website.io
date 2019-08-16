@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles/WhoAmI.css';
-import skyLineImage from '../images/skyline.jpg';
+import skyLineImage from '../images/skyline-bw-min.jpg';
 
 const WhoAmI = (props) => {
   return (
