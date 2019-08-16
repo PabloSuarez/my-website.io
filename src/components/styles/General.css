@@ -30,12 +30,32 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes opacityIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes opacityIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
 .container__wrap {
 	display: flex;
 	flex-direction: row;
   background-color: rgb(129, 126, 128);
 	max-width: 1170px;
 	margin: 0 auto;
+  -webkit-animation-name: opacityIn; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: opacityIn;
+  animation-duration: 2s;
 }
 
 .container__wrap-left,
