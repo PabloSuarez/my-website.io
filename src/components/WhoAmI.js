@@ -15,7 +15,7 @@ const WhoAmI = (props) => {
               experience working with clients from around the world 🌎,
               providing responsive front-end development and back-end integrations.
               <br/>
-              Also have experience coding on .net, java, php and python environments.
+              Also experience coding on .net, java, php and python environments.
             </p>
 
             <br/>
