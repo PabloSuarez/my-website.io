@@ -50,4 +50,33 @@ table {
 	border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: quicksand,Arial,sans-serif;
+}
+
+body b,
+body strong {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: playfair display, Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.black-link {
+  text-decoration: none;
+}
+
+.black-link:hover {
+  text-decoration: none;
+}
+
 @import './General.css';

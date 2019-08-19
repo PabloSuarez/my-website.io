@@ -5,7 +5,7 @@ import skyLineImage from '../images/skyline-bw-min.jpg';
 
 const WhoAmI = (props) => {
   return (
-    <div className="WhoAmI" id="WhoAmI">
+    <section className="WhoAmI" id="WhoAmI">
         <div className="WhoAmI__about">
             <span className="section__name text-white">About</span>
             <h2 className="section__title">WHO AM I?</h2>
@@ -32,7 +32,7 @@ const WhoAmI = (props) => {
                 <img src={skyLineImage} alt="montevideo"/>
             </a>
         </div>
-    </div>
+    </section>
   );
 }
 

@@ -7,10 +7,18 @@ import profileImageUrl from '../images/profile-min.jpg';
 
 class NavBar extends Component {
 
+  state = {
+    isNavOpen: false,
+  }
+
+  handleOpenNav = e => {
+    this.setState({isNavOpen: !this.state.isNavOpen });
+  }
+
   render() {
 
     return (
-      <aside className="NavBar">
+      <aside className={this.state.isNavOpen ? 'NavBar NavBar__open': 'NavBar'}>
         <div className="NavBar__profile-image">
             <ProfileImage imageUrl={profileImageUrl}/>
         </div>
@@ -18,20 +26,29 @@ class NavBar extends Component {
         <div className="NavBar__profile-data">
             <h1 className="NavBar__profile-data-name">Suarez Pablo</h1>
             <span className="NavBar__profile-data-position">
-                <a className="black-link" href="#">Web/Developer</a> in Uruguay 🇺🇾
+                <a className="black-link" target="_blank" href="https://github.com/PabloSuarez">Web/Developer</a> in Uruguay 🇺🇾
             </span>
         </div>
 
         <nav id="navbar" className="NavBar__menu">
             <ul>
                 <li className="NavBar__menu-item active">
-                    <a className="NavBar__menu-item-link" href="/#HiContent">Home</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="/#HiContent">Home</a>
                 </li>
                 <li className="NavBar__menu-item">
-                    <a className="NavBar__menu-item-link" href="/#WhoAmI">About</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="/#WhoAmI">About</a>
                 </li>
                 <li className="NavBar__menu-item">
-                    <a className="NavBar__menu-item-link" href="/#Experience">Experience</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="/#Experience">Experience</a>
+                </li>
+                <li className="NavBar__menu-item">
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://github.com/PabloSuarez" target="_blank">GitHub</a>
+                </li>
+                <li className="NavBar__menu-item">
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://www.linkedin.com/in/pablosuarezdesarrolloy" target="_blank">Linkedin</a>
+                </li>
+                <li className="NavBar__menu-item">
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="mailto:pablo.suarez@gmail.com">Contact</a>
                 </li>
 
                 {/*
@@ -56,7 +73,10 @@ class NavBar extends Component {
                 */}
             </ul>
         </nav>
-        <div className="NavBar__footer"></div>
+
+        <div onClick={this.handleOpenNav} className={this.state.isNavOpen ? 'NavBar__cross NavBar__cross-open': 'NavBar__cross'}>
+          <i className="NavBar__cross-icons"></i>
+        </div>
       </aside>
     );
   }

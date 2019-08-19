@@ -11,12 +11,27 @@
   background-position: center;
   border-radius: 4px;
   display: block;
-  height: 500px;
+  height: 300px;
   margin: 40px auto 0;
+  margin-top: 80px;
   width: 80%;
 }
 
 .WhoAmI__about-image img {
   height: 0;
   width: 0;
+}
+
+
+
+/*
+ *********************
+ desktop styles
+ *********************
+*/
+@media only screen and (min-width: 600px) {
+  .WhoAmI__about-image {
+    height: 500px;
+    margin-top: 40px;
+  }
 }

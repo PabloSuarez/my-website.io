@@ -4,24 +4,44 @@
   display: flex;
   flex-direction: column;
   padding: 40px 20px;
-  min-height: 100%;
+  position: fixed;
+  left: -300px;
+  min-height: 100vh;
   text-align: center;
-  width: 100%;
+  transition: all 400ms;
+  width: 300px;
 }
 
+.NavBar__open {
+  left: 0;
+}
 
-/* profile image */
+.NavBar__open::after {
+  background: rgba(125, 125, 125, .4);
+  content: '';
+  display: block;
+  position: absolute;
+  right: -8px;
+  top: 0;
+  height: 100vh;
+  width: 8px;
+}
+
 .NavBar__profile-image {
   height: 150px;
+  margin-bottom: 30px;
   width: 150px;
 }
 
+.NavBar__profile-data {
+  margin-bottom: 25px;
+}
 
-/* profile data */
 .NavBar__profile-data-name {
   font-family: playfair display, Georgia, serif;
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .NavBar__profile-data-position {
@@ -29,28 +49,17 @@
   text-transform: uppercase;
 }
 
-.NavBar__profile-image,
-.NavBar__profile-data {
-  margin-bottom: 30px;
-}
-
-
-/* menu */
-.NavBar__menu {
-
-}
-
 .NavBar__menu-item {
   border-bottom: solid 1px transparent;
   cursor: pointer;
   margin-bottom: 5px;
   text-transform: uppercase;
-  transition: all 500ms;
+  transition: all 400ms;
 }
 
 .NavBar__menu-item-link {
   color: rgba(0, 0, 0, .7);
-  transition: all 500ms;
+  transition: all 400ms;
 }
 
 .NavBar__menu-item-link,
@@ -65,4 +74,91 @@
 .NavBar__menu-item:hover {
   color: rgb(26, 158, 214);
   border-color: rgb(26, 158, 214);
+}
+
+
+/*
+  ********************
+  Close icon
+  ********************
+*/
+.NavBar__cross {
+  background: rgba(125, 125, 125, .4);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  height: 40px;
+  top: 20px;
+  right: -60px;
+  width: 40px;
+}
+
+.NavBar__cross,
+.NavBar__cross-icons {
+  transition: all 400ms;
+}
+
+.NavBar__cross-open {
+  background: rgba(125, 125, 125, .8);
+}
+
+.NavBar__cross-open .NavBar__cross-icons {
+  background: none;
+}
+
+.NavBar__cross-open .NavBar__cross-icons::after {
+  top: 10px;
+  transform: rotate(45deg);
+}
+
+.NavBar__cross-open .NavBar__cross-icons::before {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+.NavBar__cross-icons {
+  background-color: black;
+  border-radius: 4px;
+  display: block;
+  height: 2px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.NavBar__cross-icons::after,
+.NavBar__cross-icons::before {
+  background-color: black;
+  border-radius: 4px;
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 10px;
+  position: absolute;
+  width: 30px;
+}
+
+.NavBar__cross-icons::after {
+  top: 10px;
+}
+
+.NavBar__cross-icons::before {
+  top: 20px;
+}
+
+
+/*
+  ******************************
+  desktop styles
+  ******************************
+*/
+@media only screen and (min-width: 600px) {
+  .NavBar {
+    left: 0;
+    position: static;
+  }
+
+  .NavBar__cross {
+    display: none;
+  }
 }

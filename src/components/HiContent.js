@@ -6,7 +6,7 @@ class HiContent extends Component {
 
   render() {
     return (
-      <div className="HiContent" id="HiContent">
+      <section className="HiContent" id="HiContent">
         <div className="HiContent__text">
             <div className="HiContent__text-title">
               I am <br/>
@@ -17,7 +17,7 @@ class HiContent extends Component {
               react website
             </h2>
         </div>
-      </div>
+      </section>
     );
   }
 
