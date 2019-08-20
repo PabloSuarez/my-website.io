@@ -31,6 +31,8 @@ const WhoAmI = (props) => {
                target="_blank" className="WhoAmI__about-image" rel="noopener noreferrer">
                 <img src={skyLineImage} alt="montevideo"/>
             </a>
+
+            <a href="/#Experience" className="next-page"></a>
         </div>
     </section>
   );

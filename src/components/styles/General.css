@@ -12,7 +12,6 @@
 
 .container__wrap {
   margin: 0 auto;
-  background-color: rgb(129, 126, 128);
   display: flex;
   -webkit-animation-name: opacityIn; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
@@ -48,7 +47,8 @@
 }
 
 .container__wrap-right section {
-  padding-top: 120px;
+  padding-top: 60px;
+  position: relative;
 }
 
 
@@ -74,8 +74,75 @@
 
   .container__wrap-right {
     margin-left: 300px;
+    position: relative;
   	width: calc(100% - 300px);
   }
+}
+
+
+
+
+/*
+ ********************************************
+ Next element
+ ********************************************
+*/
+.next-page,
+.go-top {
+  border-bottom: solid 4px rgba(116, 187, 160, .8);
+  border-right: solid 4px rgba(116, 187, 160, .7);
+  bottom: 8vh;
+  cursor: pointer;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  transform: rotate(45deg);
+  transition: all 300ms;
+  width: 30px;
+}
+
+.go-top {
+  bottom: 2vh;
+  transform: rotate(225deg);
+  position: absolute;
+}
+
+.next-page::after,
+.go-top::after {
+  border-bottom: solid 4px rgba(152, 152, 152, .6);
+  border-right: solid 4px rgba(152, 152, 152, .6);
+  bottom: -10px;
+  left: 6px;
+  content: '';
+  display: block;
+  height: 30px;
+  position: absolute;
+  opacity: 0;
+  transition: all 700ms;
+  width: 30px;
+}
+
+.go-top::after {
+  bottom: -12px;
+  left: 8px;
+}
+
+.next-page:hover,
+.go-top:hover {
+  border-color: rgba(116, 187, 160, .4);
+  transform: rotate(45deg) translateY(10px) translateX(10px);
+}
+
+.go-top:hover {
+  transform: rotate(225deg) translateY(4px) translateX(4px);
+}
+
+.next-page:hover::after,
+.go-top:hover::after {
+  opacity: 1;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');

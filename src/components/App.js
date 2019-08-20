@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles/App.css';
 
-import NavBar from './NavBar';
+import NavBar from './NavBar/';
 import HiContent from './HiContent';
 import WhoAmI from './WhoAmI';
 import Experience from './Experience';
@@ -17,6 +17,8 @@ function App() {
             <HiContent/>
             <WhoAmI/>
             <Experience/>
+
+            <a href="/#HiContent" className="go-top"></a>
         </div>
     </div>
   );

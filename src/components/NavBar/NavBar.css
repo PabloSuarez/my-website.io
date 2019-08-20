@@ -49,6 +49,10 @@
   text-transform: uppercase;
 }
 
+.NavBar__menu {
+
+}
+
 .NavBar__menu-item {
   border-bottom: solid 1px transparent;
   cursor: pointer;

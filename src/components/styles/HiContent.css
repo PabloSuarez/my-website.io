@@ -1,36 +1,65 @@
 .HiContent {
-  background-color: #fff;
-  background-image: url('../../images/wall-bw-min.jpg');
+  background-image: url('../../images/working-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
-  padding: 40px 20px;
+  color: #000;
+  padding: 0 !important;
+}
+
+.HiContent-bg {
+  background-color: rgba(255, 255, 255, .9);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
   min-height: 100vh;
+  padding: 20vh 4vw;
+  width: 100%;
 }
 
 .HiContent__text {
-  padding: 0px 20px;
+  padding: 0;
+}
+
+.HiContent__text-hello {
+  flex-basis: 100%;
+}
+
+.HiContent__text-hello-text {
+  background-color: rgb(116, 187, 160);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+}
+
+.HiContent__image {
+  border: solid 20px rgba(137, 210, 188, .3);
+  border-radius: 50%;
+  height: 26vw;
+  margin-top: -8vh;
+  width: 26vw;
+}
+
+.HiContent__image .ProfileImage {
+  background-color: black;
+  border: solid 15px rgba(137, 210, 188, .8);
 }
 
 .HiContent__text-title {
-  background-color: rgba(145, 145, 145, 0.2);
   font-family: playfair display, Georgia, serif;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 20px;
 }
-
-.HiContent__text-subtitle {
-  color: rgb(80, 80, 80);
-  font-family: quicksand, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-  margin-bottom: 80px;
-}
-
 
 
 /*
@@ -40,6 +69,6 @@
 */
 @media only screen and (min-width: 600px) {
   .HiContent__text {
-    padding: 100px;
+
   }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import './styles/NavBar.css';
+import './NavBar.css';
 
-import ProfileImage from './ProfileImage';
-import profileImageUrl from '../images/profile-min.jpg';
+import ProfileImage from '../ProfileImage';
+import profileImageUrl from '../../images/wall-bw-min.jpg';
 
 class NavBar extends Component {
 

@@ -57,6 +57,7 @@ table {
 html,
 body {
 	font-family: quicksand,Arial,sans-serif;
+	scroll-behavior: smooth
 }
 
 body b,

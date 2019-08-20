@@ -23,8 +23,10 @@
 }
 
 .Experience__card {
-  background-color: #f2f3f7;
+  background-color: rgba(116, 187, 160, .8);
   border-radius: 4px;
+  font-size: 16px;
+  color: white;
   padding: 40px;
   position: relative;
   margin-bottom: 80px;
@@ -79,7 +81,7 @@
 }
 
 .Experience__card-content-title {
-  color: #000;
+  color: white;
   font-size: 20px;
   font-family: quicksand, Arial, sans-serif;
   font-weight: 500;
@@ -97,9 +99,8 @@
 }
 
 .Experience__card-content-description-bold {
-  color: #000;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin-top: 15px;
 }
