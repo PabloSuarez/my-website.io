@@ -16,7 +16,7 @@ class HiContent extends Component {
               <div className="HiContent__text-hello">
                 <span className="HiContent__text-hello-text">Hello</span>
               </div>
-              <div className="HiContent__text-title">
+              <div className="HiContent__text-title text-muted">
                 I am <br/>
                 a Developer <br/>
               </div>

@@ -156,7 +156,7 @@ class Experience extends Component {
   render() {
     return (
       <section className="Experience" id="Experience">
-          <span className="section__name">Experience</span>
+          <span className="section__name text-muted">Experience</span>
           <h2 className="section__title">WORK EXPERIENCE</h2>
 
           <div className="Experience__container">

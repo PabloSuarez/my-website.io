@@ -17,7 +17,7 @@
 }
 
 .NavBar__open::after {
-  background: rgba(125, 125, 125, .4);
+  background: rgba(137, 210, 188, .4);
   content: '';
   display: block;
   position: absolute;
@@ -87,7 +87,7 @@
   ********************
 */
 .NavBar__cross {
-  background: rgba(125, 125, 125, .4);
+  background: rgba(137, 210, 188, .8);
   border-radius: 4px;
   cursor: pointer;
   padding: 5px;
@@ -104,7 +104,7 @@
 }
 
 .NavBar__cross-open {
-  background: rgba(125, 125, 125, .8);
+  background: rgba(137, 210, 188, .4);
 }
 
 .NavBar__cross-open .NavBar__cross-icons {

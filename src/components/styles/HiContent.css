@@ -1,8 +1,9 @@
 .HiContent {
-  background-image: url('../../images/working-bg.jpg');
+  background-attachment: fixed;
+  background-image: url('../../images/computer-wall-min.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   color: #000;
   padding: 0 !important;
 }
@@ -11,10 +12,10 @@
   background-color: rgba(255, 255, 255, .9);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
   min-height: 100vh;
-  padding: 20vh 4vw;
+  padding: 15vh 4vw;
   width: 100%;
 }
 
@@ -43,9 +44,8 @@
 .HiContent__image {
   border: solid 20px rgba(137, 210, 188, .3);
   border-radius: 50%;
-  height: 26vw;
-  margin-top: -8vh;
-  width: 26vw;
+  height: 350px;
+  width: 350px;
 }
 
 .HiContent__image .ProfileImage {
@@ -68,7 +68,12 @@
   ******************************
 */
 @media only screen and (min-width: 600px) {
-  .HiContent__text {
+  .HiContent-bg {
+    justify-content: space-between;
+    padding: 25vh 4vw;
+  }
 
+  .HiContent__image {
+    margin-top: -8vh;
   }
 }

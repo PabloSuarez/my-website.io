@@ -7,7 +7,7 @@ const WhoAmI = (props) => {
   return (
     <section className="WhoAmI" id="WhoAmI">
         <div className="WhoAmI__about">
-            <span className="section__name text-white">About</span>
+            <span className="section__name text-muted">About</span>
             <h2 className="section__title">WHO AM I?</h2>
 
             <p>

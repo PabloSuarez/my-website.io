@@ -27,7 +27,7 @@
   border-radius: 4px;
   font-size: 16px;
   color: white;
-  padding: 40px;
+  padding: 20px;
   position: relative;
   margin-bottom: 80px;
 }
@@ -85,12 +85,12 @@
   font-size: 20px;
   font-family: quicksand, Arial, sans-serif;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .Experience__card-content-title-date {
+  display: block;
   font-size: 16px;
-  margin-right: 10px;
   opacity: .4;
 }
 
@@ -113,6 +113,19 @@
  *********************
 */
 @media only screen and (min-width: 600px) {
+  .Experience__card {
+    padding: 40px;
+  }
+
+  .Experience__card-content-title {
+    margin-bottom: 30px;
+  }
+
+  .Experience__card-content-title-date {
+    display: initial;
+    margin-right: 10px;
+  }
+
   .Experience__container {
     padding-right: 40px;
   }
