@@ -26,7 +26,7 @@ class NavBar extends Component {
         <div className="NavBar__profile-data">
             <h1 className="NavBar__profile-data-name">Suarez Pablo</h1>
             <span className="NavBar__profile-data-position">
-                <a className="black-link" target="_blank" href="https://github.com/PabloSuarez">Web/Developer</a> in Uruguay 🇺🇾
+                <a className="black-link" rel="noopener noreferrer" target="_blank" href="https://github.com/PabloSuarez">Web/Developer</a> in Uruguay 🇺🇾
             </span>
         </div>
 
@@ -42,10 +42,10 @@ class NavBar extends Component {
                     <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="/#Experience">Experience</a>
                 </li>
                 <li className="NavBar__menu-item">
-                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://github.com/PabloSuarez" target="_blank">GitHub</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://github.com/PabloSuarez" rel="noopener noreferrer" target="_blank">GitHub</a>
                 </li>
                 <li className="NavBar__menu-item">
-                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://www.linkedin.com/in/pablosuarezdesarrolloy" target="_blank">Linkedin</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://www.linkedin.com/in/pablosuarezdesarrolloy" rel="noopener noreferrer" target="_blank">Linkedin</a>
                 </li>
                 <li className="NavBar__menu-item">
                     <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="mailto:pablo.suarez@gmail.com">Contact</a>
