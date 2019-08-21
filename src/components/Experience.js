@@ -105,7 +105,7 @@ class Experience extends Component {
                 <span role='img' aria-label='esp'>🇪🇸</span> is a vertical search engine for classifieds. On March 2012,
                 it became the leading search engine for classified ads in Europe and Latin America.
                 On 2016, Trovit reached 51 countries worldwide, being available in 19 languages and
-                receiving more than 90 million unique visitors every month. Wikipedia
+                receiving more than 90 million unique visitors every month.
                 <span className="Experience__card-content-description-bold">
                     {'{'} PHP {'}'}
                 </span>
