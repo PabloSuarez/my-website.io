@@ -18,7 +18,7 @@ function App() {
             <WhoAmI/>
             <Experience/>
 
-            <a href="/#HiContent" className="go-top"></a>
+            <div href="/#HiContent" className="go-top"></div>
         </div>
     </div>
   );
