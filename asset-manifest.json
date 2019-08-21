@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-website.io/static/css/main.98387346.chunk.css",
+    "main.js": "/my-website.io/static/js/main.629c5c7d.chunk.js",
+    "main.js.map": "/my-website.io/static/js/main.629c5c7d.chunk.js.map",
+    "runtime~main.js": "/my-website.io/static/js/runtime~main.d17009a5.js",
+    "runtime~main.js.map": "/my-website.io/static/js/runtime~main.d17009a5.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/my-website.io/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.05eefc52.chunk.js": "/my-website.io/static/js/2.05eefc52.chunk.js",
+    "static/js/2.05eefc52.chunk.js.map": "/my-website.io/static/js/2.05eefc52.chunk.js.map",
+    "index.html": "/my-website.io/index.html",
+    "precache-manifest.a6bf00d417e3418ba4e636277f0e8c99.js": "/my-website.io/precache-manifest.a6bf00d417e3418ba4e636277f0e8c99.js",
+    "service-worker.js": "/my-website.io/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/my-website.io/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.98387346.chunk.css.map": "/my-website.io/static/css/main.98387346.chunk.css.map",
+    "static/media/HiContent.css": "/my-website.io/static/media/computer-wall-min.f6be6c17.jpg",
+    "static/media/edit-logo.svg": "/my-website.io/static/media/edit-logo.e2d74b8a.svg",
+    "static/media/profile-min.jpg": "/my-website.io/static/media/profile-min.0f2bea9f.jpg",
+    "static/media/WhoAmI.css": "/my-website.io/static/media/skyline-bw-min.226fecba.jpg",
+    "static/media/wall-bw-min.jpg": "/my-website.io/static/media/wall-bw-min.a6628a59.jpg"
+  }
+}
