@@ -26,7 +26,7 @@ class HiContent extends Component {
               <ProfileImage imageUrl={profileImageUrl}/>
           </div>
 
-          <div href="/#WhoAmI" className="next-page"></div>
+          <a href="/#WhoAmI" className="next-page"></a>
         </div>
       </section>
     );

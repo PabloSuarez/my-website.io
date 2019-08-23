@@ -32,7 +32,7 @@ const WhoAmI = (props) => {
                 <img src={skyLineImage} alt="montevideo"/>
             </a>
 
-            <div href="/#Experience" className="next-page"></div>
+            <a href="/#Experience" className="next-page"></a>
         </div>
     </section>
   );
