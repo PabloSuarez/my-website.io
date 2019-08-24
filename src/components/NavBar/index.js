@@ -48,7 +48,7 @@ class NavBar extends Component {
                     <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="https://www.linkedin.com/in/pablosuarezdesarrolloy" rel="noopener noreferrer" target="_blank">Linkedin</a>
                 </li>
                 <li className="NavBar__menu-item">
-                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="mailto:pablo.suarez@gmail.com">Contact</a>
+                    <a className="NavBar__menu-item-link" onClick={this.handleOpenNav} href="mailto:hostsuarezpablo@gmail.com">Contact</a>
                 </li>
 
                 {/*
