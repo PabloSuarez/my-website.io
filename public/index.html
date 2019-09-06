@@ -12,17 +12,20 @@
 </head>
 
 <body>
-  <h1 style="position: absolute; color: rgba(255, 255, 255, .1); z-index: -1;">
+  <h1 id="h1test" style="position: absolute; color: rgba(255, 255, 255, .1); z-index: -1;">
       Suarez Pablo, Full stack Developer
   </h1>
 
+  <!--
   <div id="app"></div>
   <div id="modal"></div>
+  -->
 
   <script>
-    setTimeout(function() {
+    var titulo = document.getElementById('h1test');
+    titulo.addEventListener('click', function (event) {
       window.location.replace("https://itunes.apple.com/app/id917701230");
-    }, 3000)
+    });
   </script>
 </body>
 
