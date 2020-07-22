@@ -1,0 +1,355 @@
+.container-fluid {
+    font-family: Helvetica Neue, helvetica, arial, sans-serif;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: 0;
+    max-width: 980px;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 20px;
+}
+
+.focus-default-button:focus {
+    outline: 2px solid #00BAB9;
+}
+
+.focus-default:focus {
+    outline: auto !important;
+    outline: 2px solid #00BAB9;
+}
+
+.focus-black:focus {
+    text-decoration: underline;
+}
+
+/**********************SEPHORA HEADER****************************/
+
+#HeaderMain .css-1y3my8b h5 {
+    font-weight: normal;
+    display: block;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+}
+
+
+/**********************HEADER****************************/
+
+h1.page-heading {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 4px;
+    font-family: Georgia;
+    font-size: 24px;
+    letter-spacing: 0;
+}
+
+.related-searches a {
+    color: #328AFB;
+    line-height: 17px;
+}
+
+.short-description h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.short-description h4 {
+    font-weight: normal;
+    margin-top: 1px;
+    line-height: 1.43;
+}
+
+
+/**********************LIST****************************/
+
+.list-content {
+    width: 980px;
+}
+
+.list-item {
+    height: 325px;
+    border-bottom: 1px solid #EEEEEE;
+    margin: 32px 0;
+    padding-bottom: 28px;
+    width: 100%;
+}
+
+.list-item>div {
+    display: inline-block;
+    float: left;
+}
+
+.list-item:after {
+    content: "";
+    display: block;
+    float: none;
+    clear: both;
+}
+
+
+/**********************IMAGE****************************/
+
+.list-item .list-item-thumbnail {
+    max-width: 240px;
+    max-height: 240px;
+    margin-right: 22px;
+}
+
+.list-item .thumb img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.list-item .thumb {
+    position: relative;
+}
+
+.list-item .thumb span {
+    position: absolute;
+    top: 0;
+    background: #000000;
+    color: #ffffff;
+    width: 50px;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+/**********************LIST-INFO****************************/
+
+.list-item .list-item-info {
+    width: 715px;
+    max-height: 288px;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-item .list-item-info .list-item-details {
+    width: 550px;
+    display: inline-block;
+}
+
+.list-item .sku-title h4 {
+    margin: 0;
+}
+
+.list-item .sku-title h4:first-child {
+    line-height: 19px;
+    width: 380px;
+}
+
+.list-item .sku-title h4 a.brand-name {
+    text-transform: uppercase;
+    width: inherit;
+    height: inherit;
+}
+
+.list-item .sku-title a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.list-item .sku-color span.alternatives {
+    color: #969696;
+    margin-left: 8px;
+}
+
+.list-item .sku-custom-tags {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: initial;
+}
+
+.tag {
+    display: none;
+}
+
+[data-vis="True"] {
+    display: inline-block;
+}
+
+.custom-dot {
+    margin-left: 2px;
+}
+
+.list-item .sku-model {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+}
+
+.customer-rating {
+    margin: 16px 0;
+}
+
+.ratings-reviews-link {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.rating-stars {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.rating-fill,
+.rating-backing {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rating-backing {
+    position: absolute;
+    color: #ccc!important;
+}
+
+.rating-fill svg {
+    color: #000000 !important;
+}
+
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+    line-height: initial;
+}
+
+.list-item-info .average-score {
+    padding: 0 8px 0 12px;
+    font-weight: 700;
+}
+
+.list-item-info .average-score,
+.list-item-info .ratings-count {
+    line-height: inherit;
+}
+
+.list-item-info .list-item-price {
+    float: right;
+    width: 150px;
+    display: inline-block;
+}
+
+.list-item-price .displayPrice .list-item-price {
+    padding-bottom: 10px;
+}
+
+.list-item-price .price-box {
+    margin-bottom: 12px;
+}
+
+.list-item-price .price-box .price {
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+
+.list-item-price #view-details {
+    background: #cf112c;
+    border-radius: 22px;
+    color: white;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.04px;
+    height: 44px;
+    text-transform: capitalize;
+    text-align: center;
+    float: right;
+    width: 144px;
+}
+
+.list-item .short-description .featuredQuotes {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 20px;
+    max-height: 60px;
+    margin-bottom: 16px;
+}
+
+.list-item .short-description .desc-title {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.list-item .short-description .description {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 20px;
+    max-height: 60px;
+}
+
+
+/**********************RELATED ITEMS****************************/
+
+#related-previews {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+#related-items>div {
+    display: inline-block;
+    width: 200px;
+}
+
+#related-items .col-xs-3.text-center {
+    text-align: center;
+    margin-right: 55px;
+}
+
+#related-items .col-xs-3.text-center:last-child {
+    margin-right: 0px;
+}
+
+#related-items .col-xs-3.text-center h4 a {
+    font-weight: 700;
+}
+
+#related-items .col-xs-3.text-center img {
+    width: 200px;
+    height: 210px;
+    display: block;
+}
+
+#related-items .col-xs-3.text-center em {
+    text-decoration: none;
+    font-style: normal;
+}
+
+#related-items>div>a {
+    max-height: 300px;
+    display: block;
+}
+
+#related-previews h3 {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+}

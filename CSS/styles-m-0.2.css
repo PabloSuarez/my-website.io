@@ -1,0 +1,375 @@
+.container-fluid {
+    font-family: Helvetica Neue, helvetica, arial, sans-serif;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: 0;
+    max-width: 350px;
+    font-size: 14px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 20px;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.focus-default:focus {
+    outline: auto !important;
+    outline: 2px solid #00BAB9;
+}
+
+.focus-black:focus {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0;
+}
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.css-1cage2m {
+    display: block;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: opacity 0.2s;
+}
+
+.show {
+    display: block !important;
+    height: auto !important;
+}
+
+.showHamburguer {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.hamburguerBox {
+    opacity: 0.25 !important;
+    bottom: 0 !important;
+}
+
+
+/**********************HEADER****************************/
+
+h1.page-heading {
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.related-searches {
+    margin-bottom: 18px;
+}
+
+.related-searches a {
+    color: #328AFB;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.short-description h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.short-description h4 {
+    margin-bottom: -12px;
+    font-weight: normal;
+}
+
+
+/**********************LIST****************************/
+
+.list-content {
+    width: 350px;
+}
+
+.list-item {
+    width: 100%;
+    height: 605px;
+    border-bottom: 1px solid #EEEEEE;
+    margin: 32px 0px;
+    padding-bottom: 34px;
+}
+
+.list-item:after {
+    content: "";
+    display: block;
+    float: none;
+    clear: both;
+}
+
+
+/**********************IMAGE****************************/
+
+.list-item .list-item-thumbnail {
+    max-width: 240px;
+    max-height: 240px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.list-item .thumb img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.list-item .thumb {
+    position: relative;
+}
+
+.list-item .thumb span {
+    position: absolute;
+    top: 0;
+    background: #000000;
+    color: #ffffff;
+    width: 50px;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+/**********************LIST-INFO****************************/
+
+.list-item .list-item-info {
+    width: 345px;
+    max-height: 355px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-item .sku-title h4 {
+    margin-bottom: 4px;
+    width: 285px;
+}
+
+.list-item .sku-title h4:first-child {
+    line-height: 19px;
+    width: 380px;
+}
+
+.list-item .sku-title h4 a.brand-name {
+    text-transform: uppercase;
+    width: inherit;
+    height: inherit;
+}
+
+.list-item .sku-title a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.list-item .sku-color a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-item .sku-color span.alternatives {
+    color: #969696;
+    margin-left: 8px;
+}
+
+.list-item .sku-custom-tags {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.tag {
+    display: none;
+}
+
+[data-vis="True"] {
+    display: inline-block;
+}
+
+.custom-dot {
+    margin-left: 2px;
+}
+
+.list-item .sku-model {
+    font-size: 12px;
+    color: #969696;
+}
+
+.list-item .sku-price {
+    float: right;
+}
+
+.list-item .sku-price span.price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.customer-rating {
+    padding: 12px 0;
+    height: 17px;
+}
+
+.rating-stars {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+a.ratings-reviews-link {
+    color: black;
+    text-decoration: none;
+}
+
+.rating-fill,
+.rating-backing {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rating-backing {
+    position: absolute;
+    color: #ccc!important;
+}
+
+.rating-fill .fa-star {
+    color: #000000 !important;
+}
+
+.list-unstyled {
+    float: left;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.list-item-info .average-score {
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+.list-item-info .average-score,
+.list-item-info .ratings-count {
+    line-height: 17px;
+    margin-left: 12px;
+}
+
+.list-item-button-details {
+    margin-top: 25px;
+}
+
+.list-item-button-details #view-details {
+    font-weight: 700;
+    background: #CC0000;
+    border: 1px solid #CC0000;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.04px;
+    width: 343px;
+    height: 40px;
+}
+
+.list-item .short-description .featuredQuotes {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 18px;
+    max-height: 54px;
+    margin-bottom: 16px;
+}
+
+.list-item .short-description .desc-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.list-item .short-description .description {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 16px;
+    max-height: 32px;
+    margin-bottom: 16px;
+}
+
+
+/**********************RELATED ITEMS****************************/
+
+#related-previews {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+#related-previews h3 {
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+#related-previews .flex-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#related-previews .flex-grid .col-item {
+    flex: 1;
+    margin: 0 15px 32px 0px;
+}
+
+#related-previews .flex-grid .col-item.text-center {
+    text-align: center;
+}
+
+#related-items .col-item.text-center h4 a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#related-items .col-item.text-center h4 {
+    overflow: hidden;
+    height: 40px;
+}
+
+#related-items .col-item.text-center em {
+    text-decoration: none;
+    font-style: normal;
+}
+
+#related-items .col-item.text-center img {
+    width: 160px;
+    height: 160px;
+    display: block;
+}
