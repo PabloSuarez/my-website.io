@@ -45,12 +45,23 @@
   border: solid 20px rgba(137, 210, 188, .3);
   border-radius: 50%;
   height: 350px;
+  transition: all 400ms;
   width: 350px;
+}
+
+.HiContent__image:hover {
+  border: solid 10px rgba(137, 210, 188, .2);
 }
 
 .HiContent__image .ProfileImage {
   background-color: black;
   border: solid 15px rgba(137, 210, 188, .8);
+  transition: all 500ms;
+}
+
+.HiContent__image .ProfileImage:hover {
+  background-color: black;
+  border: solid 5px rgba(137, 210, 188, .2);
 }
 
 .HiContent__text-title {
